@@ -1,5 +1,5 @@
 import mysql.connector as sqltr
-mycon=sqltr.connect(host='localhost',user='root',passwd='puniyat',use_pure=True,database="comp_activity")
+mycon=sqltr.connect(host='localhost',user='root',passwd='jetso',use_pure=True,database="comp_activity")
 c=mycon.cursor()
 
 def displayrecords():
